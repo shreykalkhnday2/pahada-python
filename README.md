@@ -7,18 +7,34 @@ Version: 0.1.0
 Press Window + R key. then type CMD. and then type on the screen **pip install pahada**
 
 ### Importation
-For using pahada, make your python file and write **import pahada**
+For using pahada, make your python file and write
+
+```python
+import pahada
+```
 
 ### Usage
 For now, pahada have only one function
-**pahada.generate(yourtable)**
+
+```python
+pahada.generate(yourtable)
+```
 
 Example:
 
 Input:
 
-**pahada.generate(7)**
+```python
+pahada.generate(7)
+```
 
 Output:
 
 Its will give you the table
+
+Example Code:
+
+```python
+import pahada
+
+pahada.generate(7)
