@@ -1,4 +1,4 @@
-# Pahada Library
+# Pahada Python Library
 ```Pahada``` is a simple Python library to generate multiplication tables effortlessly. Perfect for beginners or anyone looking to practice multiplication quickly.
 
 Version: 0.1.0
