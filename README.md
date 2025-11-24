@@ -1,44 +1,43 @@
 # Pahada Library
-Pahada library is a Python package for generating tables
+```Pahada``` is a simple Python library to generate multiplication tables effortlessly. Perfect for beginners or anyone looking to practice multiplication quickly.
 
 Version: 0.1.0
 
 ### Installation
-Press Window + R key. then type CMD. and then type on the screen
 
 ```terminal command
 pip install pahada
 ```
 
-### Importation
-For using pahada, make your python file and write
+### Usage
+Import the library and generate multiplication tables in one line:
 
 ```python
 import pahada
-```
 
-### Usage
-For now, pahada have only one function
-
-```python
-pahada.generate(yourtable)
-```
-
-Example:
-
-Input:
-
-```python
+# Generate table of 7
 pahada.generate(7)
 ```
 
 Output:
 
-Its will give you the table
+```python-repl
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+...
+7 x 10 = 70
+```
 
-Example Code:
+You can also generate tables for any number.
 
-```python
-import pahada
-
-pahada.generate(7)
+### Features
+- Generate multiplication table for any number.
+- Simple and beginner-friendly.
+- Can be extended easily for additional features.
+### Future Improvments
+- Generate tables for a range numbers.
+- Save tables to a file.
+- Add formatting options for better readability.
+### Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
