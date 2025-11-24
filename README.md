@@ -4,7 +4,11 @@ Pahada library is a Python package for generating tables
 Version: 0.1.0
 
 ### Installation
-Press Window + R key. then type CMD. and then type on the screen **pip install pahada**
+Press Window + R key. then type CMD. and then type on the screen
+
+```terminal command
+pip install pahada
+```
 
 ### Importation
 For using pahada, make your python file and write
